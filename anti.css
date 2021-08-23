@@ -1,0 +1,45 @@
+.center{
+    display: block;
+    position: relative;
+    width: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top{
+    display: block;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+    height: 150px;
+}
+
+.middle{
+    display: block;
+    position: relative;
+    background-color: green;
+    
+    height: 500px;
+}
+
+.bottom{
+    display: block;
+    position: relative;
+    background-color: red;
+    text-align: center;
+    height: 150px;
+}
+
+body{
+    background-color: #202124;
+}
+
+@media only screen and (max-width: 700px) {
+    .center{
+        display: block;
+        position: absolute;
+        width: 320px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

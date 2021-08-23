@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="anti.css">
+    <script type="module" src="js.cookie.min.js"></script>
+    <script type="module">
+        Cookies.remove('foo');
+        console.log(Cookies.get());
+        Cookies.remove('chi chi')
+        console.log(Cookies.get());
+        Cookies.remove('big')
+        console.log(Cookies.get());
+    </script>
+    </head>
+<body>
+    <div class="center">
+        <div class="top">
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div class="middle">
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div class="bottom">
+            Lorem ipsum dolor sit amet.
+        </div>
+    </div>
+    <script src="anti.js"></script>
+</body>
+</html>
