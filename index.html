@@ -8,18 +8,16 @@
     <link rel="stylesheet" href="anti.css">
     <script type="module" src="js.cookie.min.js"></script>
     <script type="module">
-        Cookies.remove('foo');
         console.log(Cookies.get());
-        Cookies.remove('big');
-        console.log(Cookies.get());
-        Cookies.remove('chi chi');
-        console.log(Cookies.get());
+        load();
+        if(count == null)count = 0;
     </script>
-    </head>
-<body>
+</head>
+<body onload="display_anti()">
     <div class="center">
         <div class="top">
             Lorem ipsum dolor sit amet.
+            <p id=count>Count: </p>
         </div>
         <div class="middle">
             Lorem ipsum dolor sit amet.
@@ -29,5 +27,6 @@
         </div>
     </div>
     <script src="anti.js"></script>
+
 </body>
 </html>
